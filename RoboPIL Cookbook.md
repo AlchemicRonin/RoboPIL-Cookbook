@@ -1,4 +1,4 @@
-# RoboPIL Cookbook
+# 🔮 RoboPIL Cookbook 🧑‍🍳
 
 > **Contributors** (no sequence):
 >
@@ -16,7 +16,7 @@ Nice to meet you, and welcome to RoboPIL! I am a cookbook you should read before
 
 ## UFACTORY xArm 6 🦾
 
-### Online Resource
+### Online Resources
 
 - [Product Downloads](https://www.ufactory.cc/download)
 - [User Manual](https://www.ufactory.cc/wp-content/uploads/2023/05/xArm-User-Manual-V2.0.0.pdf)
@@ -41,11 +41,12 @@ Nice to meet you, and welcome to RoboPIL! I am a cookbook you should read before
 
   ```sh
   git clone https://github.com/xArm-Developer/xArm-Python-SDK.git
+  cd xArm-Python-SDK
   python setup.py install
   ```
-
+  
   Integrate the SDK into your project:
-
+  
   ```python
   from xarm.wrapper import XArmAPI
   ```
@@ -90,13 +91,61 @@ Nice to meet you, and welcome to RoboPIL! I am a cookbook you should read before
 
 ## ALOHA 🏖️
 
+### Online Resources
+
+- [Official Website](https://tonyzhaozh.github.io/aloha)
+
 To Be Continued… 🚧
 
 ## GELLO 🕹️
 
+### Online Resources
+
+- [Official Website](https://wuphilipp.github.io/gello_site)
+- [Official repo for software](https://github.com/wuphilipp/gello_software)
+- [Official repo for hardware](https://github.com/wuphilipp/gello_mechanical)
+- [Guang’s modified version for xArm6](https://github.com/AlchemicRonin/GELLO)
+
+### Preparation
+
+Download the repo
+
+```sh
+git clone https://github.com/AlchemicRonin/GELLO.git
+cd GELLO
+```
+
+Create your environment
+
+```sh
+git submodule init
+git submodule update
+pip install -r requirements.txt
+pip install -e .
+pip install -e third_party/DynamixelSDK/python
+```
+
+### Running on xArm6
+
+In one terminal, run the following command:
+
+```
+python experiments/launch_nodes.py --robot=xarm
+```
+
+Open another terminal, and run:
+
+```
+python experiments/run_env.py --agent=gello
+```
+
 To Be Continued… 🚧
 
 ## STAG 🤙
+
+### Online Resources
+
+- [Official Website](http://stag.csail.mit.edu)
 
 To Be Continued… 🚧
 
