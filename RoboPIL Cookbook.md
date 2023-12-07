@@ -14,7 +14,7 @@ Nice to meet you, and welcome to RoboPIL! I am a cookbook you should read before
 
 [TOC]
 
-## UFACTORY xArm 6 🦾
+## xArm 🦾
 
 ### Online Resources
 
@@ -89,6 +89,22 @@ Nice to meet you, and welcome to RoboPIL! I am a cookbook you should read before
 
 3. Turn off the OFF/ON switch
 
+### Direct-drive Linear Motor
+
+To Be Continued… 🚧
+
+### Gripper
+
+To Be Continued… 🚧
+
+### Vacuum Gripper
+
+To Be Continued… 🚧
+
+### 6 Axis Force Torque Sensor
+
+To Be Continued… 🚧
+
 ## ALOHA 🏖️
 
 ### Online Resources
@@ -149,7 +165,17 @@ To Be Continued… 🚧
 
 To Be Continued… 🚧
 
-## Camera Calibration 📷
+## RealSense 📷
+
+### Online Resources
+
+- [Official Website](https://www.intelrealsense.com/depth-camera-d455)
+
+### Calibration
+
+To Be Continued… 🚧
+
+### Point Cloud
 
 To Be Continued… 🚧
 
