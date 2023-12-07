@@ -3,8 +3,7 @@
 > **Contributors** (no sequence):
 >
 > Guang Yin (guangy2@illinois.edu)
->
-> Binghao Huang (binghao2@illinois.edu)
+>Binghao Huang (binghao2@illinois.edu)
 
 ## Preface
 
@@ -12,7 +11,32 @@ Nice to meet you, and welcome to RoboPIL! I am a cookbook you should read before
 
 ## Table of Contents
 
-[TOC]
+- [🔮 RoboPIL Cookbook 🧑‍🍳](#-robopil-cookbook-)
+  - [Preface](#preface)
+  - [Table of Contents](#table-of-contents)
+  - [xArm 🦾](#xarm-)
+    - [Online Resources](#online-resources)
+    - [Software and Python SDK](#software-and-python-sdk)
+    - [Before Using](#before-using)
+    - [After Using](#after-using)
+    - [Direct-drive Linear Motor](#direct-drive-linear-motor)
+    - [Gripper](#gripper)
+    - [Vacuum Gripper](#vacuum-gripper)
+    - [6 Axis Force Torque Sensor](#6-axis-force-torque-sensor)
+  - [ALOHA 🏖️](#aloha-️)
+    - [Online Resources](#online-resources-1)
+  - [GELLO 🕹️](#gello-️)
+    - [Online Resources](#online-resources-2)
+    - [Preparation](#preparation)
+    - [Running on xArm6](#running-on-xarm6)
+  - [STAG 🤙](#stag-)
+    - [Online Resources](#online-resources-3)
+  - [RealSense 📷](#realsense-)
+    - [Online Resources](#online-resources-4)
+    - [Calibration](#calibration)
+    - [Point Cloud](#point-cloud)
+  - [SSH 📟](#ssh-)
+  - [NeoVim 🛸](#neovim-)
 
 ## xArm 🦾
 
